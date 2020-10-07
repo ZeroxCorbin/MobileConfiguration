@@ -5,10 +5,15 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileConfiguration", "MobileConfiguration\MobileConfiguration.csproj", "{F5BE890B-AA40-4782-84B8-73158BFE902F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ARCLManager", "..\ARCLManager\ARCLManager\ARCLManager.csproj", "{FB6D8929-1E40-4B8F-9179-348360541647}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocketManager", "..\SocketManager\SocketManager.csproj", "{4BEECD11-92DC-429C-B85C-2323787C2E43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		ARCLManager_ConfigurationManager_Demo|Any CPU = ARCLManager_ConfigurationManager_Demo|Any CPU
 		Debug|Any CPU = Debug|Any CPU
+		MobileConfiguration|Any CPU = MobileConfiguration|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
@@ -16,8 +21,26 @@ Global
 		{F5BE890B-AA40-4782-84B8-73158BFE902F}.ARCLManager_ConfigurationManager_Demo|Any CPU.Build.0 = ARCLManager_ConfigurationManager_Demo|Any CPU
 		{F5BE890B-AA40-4782-84B8-73158BFE902F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F5BE890B-AA40-4782-84B8-73158BFE902F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5BE890B-AA40-4782-84B8-73158BFE902F}.MobileConfiguration|Any CPU.ActiveCfg = Release|Any CPU
+		{F5BE890B-AA40-4782-84B8-73158BFE902F}.MobileConfiguration|Any CPU.Build.0 = Release|Any CPU
 		{F5BE890B-AA40-4782-84B8-73158BFE902F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5BE890B-AA40-4782-84B8-73158BFE902F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB6D8929-1E40-4B8F-9179-348360541647}.ARCLManager_ConfigurationManager_Demo|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB6D8929-1E40-4B8F-9179-348360541647}.ARCLManager_ConfigurationManager_Demo|Any CPU.Build.0 = Debug|Any CPU
+		{FB6D8929-1E40-4B8F-9179-348360541647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB6D8929-1E40-4B8F-9179-348360541647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB6D8929-1E40-4B8F-9179-348360541647}.MobileConfiguration|Any CPU.ActiveCfg = MobileConfiguration|Any CPU
+		{FB6D8929-1E40-4B8F-9179-348360541647}.MobileConfiguration|Any CPU.Build.0 = MobileConfiguration|Any CPU
+		{FB6D8929-1E40-4B8F-9179-348360541647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB6D8929-1E40-4B8F-9179-348360541647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BEECD11-92DC-429C-B85C-2323787C2E43}.ARCLManager_ConfigurationManager_Demo|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BEECD11-92DC-429C-B85C-2323787C2E43}.ARCLManager_ConfigurationManager_Demo|Any CPU.Build.0 = Debug|Any CPU
+		{4BEECD11-92DC-429C-B85C-2323787C2E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BEECD11-92DC-429C-B85C-2323787C2E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BEECD11-92DC-429C-B85C-2323787C2E43}.MobileConfiguration|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BEECD11-92DC-429C-B85C-2323787C2E43}.MobileConfiguration|Any CPU.Build.0 = Debug|Any CPU
+		{4BEECD11-92DC-429C-B85C-2323787C2E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BEECD11-92DC-429C-B85C-2323787C2E43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
