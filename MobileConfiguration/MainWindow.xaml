@@ -1,0 +1,40 @@
+﻿<Window x:Class="MobileConfiguration.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MobileConfiguration"
+        mc:Ignorable="d"
+        Title="MainWindow" SizeToContent="WidthAndHeight" LocationChanged="Window_LocationChanged" Closing="Window_Closing">
+    <Grid>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="TxtConnectionString" Text="192.168.0.20:7171:adept" Width="300" VerticalContentAlignment="Center"/>
+                <Button x:Name="BtnConnect" Content="Connect" Click="BtnConnect_Click" Height="28" Width="96"/>
+                <TextBox x:Name="TxtSendMessage" VerticalContentAlignment="Center" Width="200"/>
+                <Button x:Name="BtnSend" Content="Send" Click="BtnSend_Click" Height="28" Width="96"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="BtnReloadSections" Content="Reload Sections" Height="28" Width="128" Click="BtnReloadSections_Click"/>
+                <ComboBox x:Name="CmbAvailableSections" Height="28" Width="300" VerticalContentAlignment="Center" Margin="0" SelectionChanged="CmbAvailableSections_SelectionChanged" />
+                <Button x:Name="BtnReadSectionValues" Content="Read Section" Height="28" Width="128" Click="BtnReadSectionValues_Click"/>
+                <Button x:Name="BtnReadAllSectionValues" Content="Read All Sections" Height="28" Width="128" Click="BtnReadAllSectionValues_Click" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal"/>
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="BtnLoadSection" Content="Load Sections File" Height="28" Width="128" Click="BtnLoadSection_Click" />
+                <ComboBox x:Name="CmbLoadedSections" Height="28" Width="300" SelectionChanged="CmbLoadedSections_SelectionChanged"/> 
+                <Button x:Name="BtnWriteSection" Content="Write Section" Height="28" Width="128" Click="BtnWriteSection_Click"/>
+                <Button x:Name="BtnSaveSection" Content="Save Selected Section" Height="28" Width="128" Click="BtnSaveSection_Click" />
+                <Button x:Name="BtnSaveAllSections" Content="Save All Sections" Height="28" Width="128" Click="BtnSaveAllSections_Click" />
+
+            </StackPanel>
+            <DataGrid x:Name="DgvSectionValues" MaxHeight="350" AutoGenerateColumns="False" CanUserSortColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding Path=Name}"  Header="Name" MinWidth="100" CanUserResize="False" IsReadOnly="True"/>
+                    <DataGridTextColumn Binding="{Binding Path=Value}" Header="Value" MinWidth="100" CanUserResize="False"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+    </Grid>
+</Window>

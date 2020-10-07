@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileConfiguration", "MobileConfiguration\MobileConfiguration.csproj", "{F5BE890B-AA40-4782-84B8-73158BFE902F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		ARCLManager_ConfigurationManager_Demo|Any CPU = ARCLManager_ConfigurationManager_Demo|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5BE890B-AA40-4782-84B8-73158BFE902F}.ARCLManager_ConfigurationManager_Demo|Any CPU.ActiveCfg = ARCLManager_ConfigurationManager_Demo|Any CPU
+		{F5BE890B-AA40-4782-84B8-73158BFE902F}.ARCLManager_ConfigurationManager_Demo|Any CPU.Build.0 = ARCLManager_ConfigurationManager_Demo|Any CPU
+		{F5BE890B-AA40-4782-84B8-73158BFE902F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5BE890B-AA40-4782-84B8-73158BFE902F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5BE890B-AA40-4782-84B8-73158BFE902F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5BE890B-AA40-4782-84B8-73158BFE902F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BDFA733-37FB-4789-9849-11E647D3C131}
+	EndGlobalSection
+EndGlobal
