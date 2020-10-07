@@ -1,2 +1,3 @@
-# ARCLManager_ConfigurationManager_Demo
-A demo application for; [ARCLManager](https://github.com/ZeroxCorbin/ARCLManager)
+# MobileConfiguration
+Requires; [ARCLManager](https://github.com/ZeroxCorbin/ARCLManager)
+Requires; [SocketManager](https://github.com/ZeroxCorbin/SocketManager)
